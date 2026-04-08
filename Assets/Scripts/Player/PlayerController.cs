@@ -9,7 +9,6 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float jumpHeight = 2f;
     [SerializeField] float jumpDuration = 0.8f;
     [SerializeField] float groundY = 0f; 
-
     Vector2 movement;
     Rigidbody rigidBody;
     bool isJumping = false;
